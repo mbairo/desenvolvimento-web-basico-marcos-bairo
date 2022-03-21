@@ -1,0 +1,25 @@
+/*Este é minha folha de estilo css*/
+
+body{
+    font-family: Arial;
+}
+
+h1{
+    font-family: Arial;
+    font-size: 50pt;
+    color: red;
+    background-color: #F5E26E;
+    text-align: center;
+    padding: 30px;
+    margin: 30px;
+}
+
+.destaque{
+    font-size: 20px;
+    text-align: right;
+}
+
+.pequeno{
+    font-size: 10px;
+    text-align: left;
+}
