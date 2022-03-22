@@ -1,0 +1,29 @@
+body{
+    font-family: Arial;
+    font-size: 50px;
+    text-align: center;
+}
+
+h1{
+    font-size: 130px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.center {
+    width: 60%;
+    text-align: center;
+  }
+
+img{
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+.meio{
+    display: flex;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto 
+}
