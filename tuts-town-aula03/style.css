@@ -1,0 +1,52 @@
+body{
+  background-color: beige;
+}
+h1{
+  font-size: 50px;
+  text-align: center;
+  margin: 0px;
+}
+
+.logo{
+  max-width: 550px;
+  margin: auto ;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* gap: 2rem; */
+  align-items: center;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}   
+
+.container{
+  max-width: 300px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: center;
+}
+
+#titulo{
+  color: blue;
+  font-weight: bold;
+}
+
+a{
+  color: red;
+}
+
+footer{
+  background-color: #ffb350;
+  /* padding: 1px; */
+  text-align: center; 
+  /* margin-top: inherit; */
+  position:absolute;
+	bottom:0;
+	width:100%;
+
+}
+   
