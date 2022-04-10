@@ -1,0 +1,140 @@
+body {
+    position: relative;
+    padding: 0px;
+    margin-left: 710px;
+    margin-right: 710px;
+    font-family: helvetica;
+ }
+
+ #logo {
+    text-align: left;
+    margin-left: -20px;
+ }
+
+ nav ul li {
+     /* padding-top: 0px; */
+     display: inline;
+     float: right;
+     margin-right: -1%;
+     margin-bottom: 2%;     
+ }
+
+a {
+	padding: 20px;
+    text-decoration: none;
+    color: gray;
+}
+
+a:hover {
+	color: red;
+}
+
+.container {
+    position: relative;
+    text-align: left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.translucido {
+    position: relative;
+    background: rgba(0, 0, 0, 0.5);
+    top: -425px;
+    color: white;
+    width: 431px;
+    height: 170px;
+    margin-top: 15px;
+    padding: 25px;
+    font-size: 20px;
+}
+.textTranslucido{
+    position: absolute;
+    text-align: left;
+    top: -15px;
+}
+
+#linkDepoimento {
+    position: absolute;
+    color: rgb(67, 154, 224);
+    top: 170px;
+    margin-left: -20px;
+    font-size: 15px;
+}
+
+#box1{
+    position: absolute;
+    width: 260px;
+    height: 220px;
+    margin-top: -210px;
+    background-color: blue;
+}
+#textBox1{
+    position: absolute;
+    width: 260px;
+    height: 220px;
+    margin-top: 70px;
+    /* background-color: red; */
+    text-align: left;
+}
+
+.box2{
+    position: absolute;
+    width: 260px;
+    height: 220px;
+    margin-left: 290px;
+    top: 593px;
+}
+#textBox2{
+    position: absolute;
+    width: 260px;
+    height: 220px;
+    margin-top: 70px;
+    margin-left: 290px;
+    /* background-color: green; */
+    text-align: left;
+}
+
+.box3{
+    position: absolute;
+    width: 260px;
+    height: 220px;
+    margin-left: 580px;
+    top: 593px;
+}
+#textBox3{
+    position: absolute;
+    width: 260px;
+    height: 220px;
+    margin-top: 70px;
+    margin-left: 580px;
+    /* background-color: green; */
+    text-align: left;
+}
+
+.box4{
+    position: absolute;
+    width: 260px;
+    height: 220px;
+    margin-left: 870px;
+    top: 593px;
+}
+#textBox4{
+    position: absolute;
+    width: 260px;
+    height: 220px;
+    margin-top: 70px;
+    margin-left: 870px;
+    /* background-color: green; */
+    text-align: left;
+}
+
+#footer{
+    position: absolute;
+    margin-top: 300px ;
+
+}
+
+
+
+
