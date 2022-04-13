@@ -1,10 +1,19 @@
-/*		  
-Olá
-Este é o CSS do Site de Design Digital
-Qualquer dúvida consulte :::http://www.w3.org/community/webed/wiki/CSS/Properties:::
-*/
+/* 
+Responsive:
+Dica: mudar o fonte size do body (ou principal) para  "font-size: 62.5%" para facilitar o calculo. Ex: 24px = 2.4em
 
-/* Normatização CSS */
+1* Tipografia EM
+    - Font Size Body:
+        - Textos 10px = 1em
+    
+2*  Margim
+        - Padding em %
+
+3*  Width em %
+
+4*  Height / top- NÃO altera
+
+*/
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -22,78 +31,6 @@ a {
 a:hover {
     text-decoration: underline;
 }
-
-.container {
-    max-width: 1128px;
-    margin: 0 auto;
-}
-
-img, figure, video, embed{
-    max-width: 100%;
-}
-
-header {
-    width: 100%;
-    height: 48px;
-    margin-top: 3.19%; /* 36px  1128-container  */
-    margin-bottom: 3.19%; /*36px  1128-container   */
-}
-
-.logo {
-    width: 20.74%; /* 234px   1128-container*/
-    float: left;
-}
-
-nav {
-    width: 74.46%; /*840px  1128-container */
-    float: right;
-}
-
-nav ul {
-    float: right;
-}
-
-nav li {
-    display: inline-block;
-    font-size: 1.2em;
-    margin-top: 0.88%; /* 10px  1128-container */
-    margin-left: 1.77%; /* 20px  1128-container */
-
-}
-nav li a {
-    color: #999;
-}
-
-.banner {
-    background: url('img/banner.jpg');
-    height: 450px;
-    margin-bottom: 4.2%; /* 48px  1128-container*/
-    position: relative;
-}
-
-    .caixa {
-    position: absolute;
-    top: 48px; /* 48px  1128-banner*/
-    background: rgba(0,0,0,0.6);
-    width: 480px;
-    padding: 24px 14px 24px 40px;
-}
-
-h1 {
-    font-size: 4.0em;
-    color: white;
-}
-
-.caixa p {
-    font-size: 1.8em;
-    color: white;
-}
-
-
-
-
-
-
 
 /*
 Todo 'a' vem por default sublinhado, para mudar isso deve-se usar as seguintes propriedades:
@@ -114,6 +51,71 @@ a:active estiliza o estado link ativo (é o aspecto do link ativo, isto é, aque
 */
 
 
+.container {
+    max-width: 1128px;
+    margin: 0 auto;
+}
+
+img, figure, video, embed{
+    max-width: 100%;
+}
+
+header {
+    width: 100%;
+    height: 48px;
+    margin-top: 3.6em; /* Não seria em %???---- 36px  1128-container  */
+    margin-bottom: 3.6em; /* Não seria em %???---- 36px  1128-container   */
+}
+
+.logo {
+    width: 20.74%; /* 234px   1128-container*/
+    float: left;
+}
+
+nav {
+    width: 74.46%; /*840px  1128-container */
+    float: right;
+}
+
+nav ul {
+    float: right;
+}
+
+nav li {
+    display: inline-block;
+    font-size: 1.2em;  /*12px*/
+    margin-top: 1em; /* 10px   */
+    margin-left: 2.0em; /* 20px   */
+
+}
+nav li a {
+    color: #999;
+}
+
+.banner {
+    background: url('img/banner.jpg');
+    height: 450px;
+    margin-bottom: 4.8em; /* 48px */
+    position: relative;
+}
+
+.caixa {
+    position:   absolute;
+    top: 4.8em;  /* 48px */
+    background: rgba(0,0,0,0.6);
+    width: 42.55%;  /* 480px * 1128-banner  * 100*/
+    padding: 2.4em 1.4em 2.4em 4.0em;   /* 24px 14px 24px 40px  ¿¿em ou % ??? 1128-banner*/
+}
+
+h1 {
+    font-size: 4.0em;
+    color: white;
+}
+
+.caixa p {
+    font-size: 1.8em;
+    color: white;
+}
  
 /* 
 O Position não serve para diagramar a estrutura de layouts. Para isso, você utiliza a propriedade float do css. O Position vai servir para fazer coisas mais simples.
@@ -123,9 +125,9 @@ O Position não serve para diagramar a estrutura de layouts. Para isso, você ut
 */
 
 article {
-    width: 264px;
+    width: 23.40%;   /* 264px  1128-banner*/
     float: left;
-    margin-right: 24px;
+    margin-right: 2.12765957%;  /* 24px  1128-banner*/
 }
 
 article:last-child {
@@ -133,11 +135,17 @@ article:last-child {
 }
 
 h2 {
-    font-size: 2.4em;
+    font-size: 2.4em; /* 24px */
 }
     
 p {
-    font-size: 1.6em;
+    font-size: 1.6em;  /* 16px */
     text-align: justify;
 }
 
+footer{
+    width: 100%;
+    margin-top: 2.4em; /* 24px */
+    margin-bottom: 2.4em; /* 24px */
+    font-size: 1em; /* 10px */
+}
