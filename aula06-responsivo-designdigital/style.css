@@ -1,11 +1,14 @@
-/* 
+/*
+
+*** Não aplicado essa regra em todas as situações pois estava dando erro...
+
 Responsive:
 Dica: mudar o fonte size do body (ou principal) para  "font-size: 62.5%" para facilitar o calculo. Ex: 24px = 2.4em
 
 1* Tipografia EM
     - Font Size Body:
         - Textos 10px = 1em
-    
+
 2*  Margim
         - Padding em %
 
@@ -54,7 +57,7 @@ a:active estiliza o estado link ativo (é o aspecto do link ativo, isto é, aque
 .container {
     max-width: 1128px;
     margin: 0 auto;
-}
+} 
 
 img, figure, video, embed{
     max-width: 100%;
@@ -73,7 +76,7 @@ header {
 }
 
 nav {
-    width: 74.46%; /*840px  1128-container */
+    width: 74.46%; /*840px  1128-container = 74.46%*/
     float: right;
 }
 
@@ -102,8 +105,8 @@ nav li a {
 .caixa {
     position:   absolute;
     top: 4.8em;  /* 48px */
-    background: rgba(0,0,0,0.6);
-    width: 42.55%;  /* 480px * 1128-banner  * 100*/
+    background: rgba(0, 0, 0, 0.6);
+    width: 480px;  /* 480px * 1128-banner  * 100*/
     padding: 2.4em 1.4em 2.4em 4.0em;   /* 24px 14px 24px 40px  ¿¿em ou % ??? 1128-banner*/
 }
 
@@ -116,8 +119,8 @@ h1 {
     font-size: 1.8em;
     color: white;
 }
- 
-/* 
+
+/*
 O Position não serve para diagramar a estrutura de layouts. Para isso, você utiliza a propriedade float do css. O Position vai servir para fazer coisas mais simples.
 #fixed irá fixar a posição do elemento na coordenada que você definir
 #relative posiciona o elemento em relação a si mesmo.
@@ -125,9 +128,9 @@ O Position não serve para diagramar a estrutura de layouts. Para isso, você ut
 */
 
 article {
-    width: 23.40%;   /* 264px  1128-banner*/
+    width: 264px;   /*  264px  1128-banner = 23.40%*/
     float: left;
-    margin-right: 2.12765957%;  /* 24px  1128-banner*/
+    margin-right: 2.1%;  /* 24px  1128-banner*/
 }
 
 article:last-child {
@@ -137,7 +140,7 @@ article:last-child {
 h2 {
     font-size: 2.4em; /* 24px */
 }
-    
+
 p {
     font-size: 1.6em;  /* 16px */
     text-align: justify;
