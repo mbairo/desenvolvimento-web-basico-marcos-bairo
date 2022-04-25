@@ -6,12 +6,11 @@
     padding: 0;
 } */
 
-.container {
+.container { 
     max-width: 1128px; 
     margin: 0 auto;
 
-    background-color: gray;
-    border: 2px solid red;
+
     padding: 15px;
     /* max-width: 300px;
     height: 300px; */
@@ -42,9 +41,11 @@
 
 .skill {
     background-color: white;
-    border: 1px solid blue;
+    border: 1px solid rgb(46, 198, 198); 
     align-items: center;
     text-align: left;
+    margin: 0px;
+    padding: 0px;
 }
 
 .perfil .img-perfil {
@@ -69,14 +70,18 @@ img{
 }
 
 .hr-skill {
+    float: left;
     padding: 0;
     border: 0;
     height: 2px;
-    background-image: linear-gradient(to right, transparent, white, transparent);  
+    width: 200px;
+    color:#000;
+    background-color:#000;
 }
 
 
 .hr-vertical{
+    float: left;
     height:100px;
     width: 3px;
     border-width:0;
@@ -85,6 +90,7 @@ img{
 }
 
 .hr-ponto{
+    float: left;
     height:10px;
     width: 10px;
     border-width:0;
@@ -93,17 +99,27 @@ img{
 }
    
 
+.icon-beside{
+    float: left;
+    height: 40px;      
+}
+.title-beside{
+    float: left;
+}
+
 
 .icon{
-    float: left;
-    height: 40px;
+    align-items: center;
+    height: 40px;      
 }
-
 .title{
-    float: left;
-
+    align-items: center;
 }
 
+button{
+    padding: 0px;
+    margin: 10px;
+}
 
 
 
