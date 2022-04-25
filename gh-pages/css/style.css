@@ -1,0 +1,122 @@
+/* *,*:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} */
+
+.container {
+    max-width: 1128px; 
+    margin: 0 auto;
+
+    background-color: gray;
+    border: 2px solid red;
+    padding: 15px;
+    /* max-width: 300px;
+    height: 300px; */
+
+    /* display: flex;
+    flex-direction: column; */
+}  
+
+.coluna-perfil{
+    float: left;
+    max-height: fit-content;
+    width: 300px;
+}
+
+.coluna-skill{
+    float: right;
+    max-height: fit-content; 
+    width: 770px;
+}
+
+.perfil {
+    /* float: left; */
+    background-color: rgb(46, 198, 198);
+    border: 1px solid rgb(46, 198, 198); /*<< fazer de outra maneira! */
+    align-items: center;
+    text-align: center;
+}
+
+.skill {
+    background-color: white;
+    border: 1px solid blue;
+    align-items: center;
+    text-align: left;
+}
+
+.perfil .img-perfil {
+    padding: 5px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+
+}
+
+img{
+    max-width: 100%;
+}
+
+
+/* separador */
+.hr-perfil {
+    padding: 0;
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, transparent, white, transparent);  
+}
+
+.hr-skill {
+    padding: 0;
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, transparent, white, transparent);  
+}
+
+
+.hr-vertical{
+    height:100px;
+    width: 3px;
+    border-width:0;
+    color:#000;
+    background-color:#000;
+}
+
+.hr-ponto{
+    height:10px;
+    width: 10px;
+    border-width:0;
+    color:#000;
+    background-color:#000;
+}
+   
+
+
+.icon{
+    float: left;
+    height: 40px;
+}
+
+.title{
+    float: left;
+
+}
+
+
+
+
+/* 
+.coluna--perfil{
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+}
+
+.img--style{
+    width: 200px;
+    height: 200px;
+}
+
+ */
