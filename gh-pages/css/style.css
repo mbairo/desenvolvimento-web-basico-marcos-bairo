@@ -1,47 +1,31 @@
-/* *,*:after, *:before {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-} */
-
 .container { 
     max-width: 1128px; 
     margin: 0 auto;
-
-
-    padding: 15px;
-    /* max-width: 300px;
-    height: 300px; */
-
-    /* display: flex;
-    flex-direction: column; */
 }  
 
 .coluna-perfil{
     float: left;
-    max-height: fit-content;
+    
     width: 300px;
+
 }
 
 .coluna-skill{
     float: right;
-    max-height: fit-content; 
-    width: 770px;
+    width: 820px;
+
 }
 
 .perfil {
-    /* float: left; */
     background-color: rgb(46, 198, 198);
-    border: 1px solid rgb(46, 198, 198); /*<< fazer de outra maneira! */
+    border: 1px solid rgb(46, 198, 198); 
     align-items: center;
     text-align: center;
 }
 
 .skill {
     background-color: white;
-    border: 1px solid rgb(46, 198, 198); 
+    border: none;
     align-items: center;
     text-align: left;
     margin: 0px;
@@ -53,7 +37,6 @@
     width: 200px;
     height: 200px;
     border-radius: 100px;
-
 }
 
 img{
@@ -68,17 +51,66 @@ img{
     height: 2px;
     background-image: linear-gradient(to right, transparent, white, transparent);  
 }
+ 
+
+.icon-title{
+    float: left;
+    height: 40px;  
+    margin-left: 100px;
+    margin-right: 10px;    
+}
+.title{
+    float: left;
+}
+
+
+.icon{
+    float: left;
+    height: 40px;  
+    margin-left: 10px;
+    margin-right: 10px;   
+}
+
+
+/* skill */
+
+.container-skill{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+} 
+
+
+.box-skill{
+    display: flex; 
+    flex-direction: row; 
+    padding: 10px;
+}
+.texto-skill{
+    padding: 7px;
+}
+
+
+
+.icon-skill{
+    display: inline-block;
+    float: left;
+    height: 40px;  
+    margin-left: 380px;
+    margin-right: 10px;  
+
+}
+.title-skill{
+    color: black;
+}
+
 
 .hr-skill {
-    float: left;
     padding: 0;
     border: 0;
     height: 2px;
-    width: 200px;
-    color:#000;
-    background-color:#000;
+    background-image: linear-gradient(to right, transparent, black, transparent);  
 }
-
 
 .hr-vertical{
     float: left;
@@ -97,42 +129,34 @@ img{
     color:#000;
     background-color:#000;
 }
-   
-
-.icon-beside{
-    float: left;
-    height: 40px;      
-}
-.title-beside{
-    float: left;
-}
-
-
-.icon{
-    align-items: center;
-    height: 40px;      
-}
-.title{
-    align-items: center;
-}
 
 button{
     padding: 0px;
     margin: 10px;
 }
 
+footer{
+    width: 400px;
+    /* max-width: fit-content; */
+    /* margin-top: 24px;
+    margin-bottom: 24px;  */
+    font-size: 15px;
 
+    color: black;
+    text-align: center;
+    align-items: flex-start;
+    padding: 30px;
 
-/* 
-.coluna--perfil{
-    display: flex;
-    flex-direction: column;
-    background-color: red;
+    
 }
 
-.img--style{
-    width: 200px;
-    height: 200px;
+.colunas{
+    /* padding-bottom: 30px; */
 }
 
- */
+#clear{
+
+}
+
+
+

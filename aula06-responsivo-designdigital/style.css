@@ -1,6 +1,5 @@
 /*
 
-*** Não aplicado essa regra em todas as situações pois estava dando erro...
 
 Responsive:
 Dica: mudar o fonte size do body (ou principal) para  "font-size: 62.5%" para facilitar o calculo. Ex: 24px = 2.4em
@@ -16,12 +15,12 @@ Dica: mudar o fonte size do body (ou principal) para  "font-size: 62.5%" para fa
 
 4*  Height / top- NÃO altera
 
-*/
+*/ 
 
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.5;  /* Uma linha e meia*/
-    color: #444;
+    color: #444; 
     font-size: 62.5%; /* gambiarra para facilitar */
 }
 
@@ -61,9 +60,9 @@ a:active estiliza o estado link ativo (é o aspecto do link ativo, isto é, aque
 
 
 .container {
-    max-width: 1128px;
+    max-width: 1128px; 
     margin: 0 auto;
-}
+} 
 
 img, figure, video, embed{
     max-width: 100%; /* As img são de 100% de onde estiverem */
@@ -113,7 +112,7 @@ nav li a {
     top: 48px;  /* 48px */
     background: rgba(0, 0, 0, 0.6);
     width: 42.55%;  /* 480px * 1128-banner  * 100*/
-    padding: 2.4em 1.4em 2.4em 4.0em;   /* 24px 14px 24px 40px  ¿¿em ou % ??? 1128-banner*/
+    padding: 2.4em 1.4em 2.4em 4em;   /* 24px 14px 24px 40px  ¿¿em ou % ??? 1128-banner*/
 }
 
 h1 {
@@ -124,6 +123,7 @@ h1 {
 .caixa p {
     font-size: 1.8em;
     color: white;
+    text-align: justify;
 }
 
 /*
@@ -170,7 +170,10 @@ footer{
     .container{
         padding: 0 2.4em 0 2.4em;
     }
-}
+        .caixa{
+        width: 65%;
+    }
+} 
 
 @media screen and (max-width: 768px){
     .caixa{
@@ -186,6 +189,9 @@ footer{
         margin-right: 0;
     }
 
+    h1{
+        font-size: 3em;
+    }
     .logo {
         width: 25%;
         margin-top: 1.2em;
@@ -196,7 +202,7 @@ footer{
     .banner{
         position: relative;
         float: left;
-        height: 300px;
+        height: 250px;
     }
 
     .caixa{
@@ -204,7 +210,7 @@ footer{
         position: relative;
         background: black;
         display: block; /*presa em baixo do banner*/
-        margin-top: 250px; /*para não ficar preso na parte de cima*/
+        margin-top: 225px; /*para não ficar preso na parte de cima*/
     }
 
     h1{
@@ -228,6 +234,10 @@ footer{
     nav li:first-child{
         margin-left: 0;
     }
+
+    section{
+        margin-top: 600px;
+    }
 }
 
 @media screen and (max-width: 520px ) {
@@ -236,18 +246,18 @@ footer{
         margin-right: 0;
     }
     .caixa{
-        padding: 1.2em 2em 1.23m 2em;
+        padding: 1.2em 2em 1.2em 2em;
         position: relative;
         display: block;
         width: 100%;
         background: black;
-        margin-top: 150px;
-    }
+        margin-top: 250px;
+    }   
     .banner{
         height: 200px;
     }
     section{
-        margin-top: 500px;
+        margin-top: 650px;
     }
 }
 
