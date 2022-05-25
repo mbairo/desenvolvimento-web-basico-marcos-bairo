@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Bootstrap - Sistema de Grids</title>
+  </head>
+
+  <body>
+
+     <!-- Container  geralmente é somente no body -- aqui é apenas para ex-->
+    <div class="bg-info container">
+      Conteudo do Site
+    </div>
+
+    <br>
+    
+    <div class="bg-info container">
+      <div class="row">     <!-- Linha/row é um flex-box  -->
+        <div class="bg-warning">
+          Conteudo do Site 1
+        </div>
+        <div class="bg-danger">
+          Conteudo do Site 2
+        </div>
+      </div>
+    </div>
+    
+    <br>
+
+    <div class="bg-info container">
+      <div class="row">     <!-- Linha/row é um flex-box  -->
+        <div class="bg-warning col-6"><!-- col = número de colunas  -->
+          Conteudo do Site 1
+        </div>
+        <div class="bg-danger col-3">
+          Conteudo do Site 2
+        </div>
+        <div class="bg-success col-3">
+          Conteudo do Site 3
+        </div>
+      </div>
+    </div>
+
+
+    <br>
+
+    <div class="bg-info container">
+      <div class="row">     <!-- Linha/row é um flex-box  -->
+        <div class="bg-warning col-6 col-md-2 col-lg-9"><!--  Quando chegar no middle "md" vai ocupar 2 colunas  e no large "lg" ocupar 9 colunas-->
+          Conteudo do Site 1
+        </div>
+        <div class="bg-primary col-6 col-md-10 col-lg-3">
+          Conteudo do Site 2
+        </div>
+
+      </div>
+    </div>
+
+    <br>
+
+    <div class="bg-info container">
+      <div class="row">     <!-- Linha/row é um flex-box  -->
+        <div class="bg-warning col-6  col-sm-1 col-md-2 col-lg-9 col-xg-8"><!--  Quando chegar no middle "md" vai ocupar 2 colunas  e no large "lg" ocupar 9 colunas-->
+          Conteudo do Site 1
+        </div>
+        <div class="bg-primary col-6 col-sm-11 col-md-10 col-lg-3 col-xg-4">
+          Conteudo do Site 2
+        </div>
+      </div>
+    </div>
+
+    
+    <!--  -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
