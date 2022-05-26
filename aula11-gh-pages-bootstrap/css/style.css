@@ -1,0 +1,162 @@
+.container { 
+    max-width: 1128px; 
+    margin: 0 auto;
+}  
+
+.coluna-perfil{
+    float: left;
+    
+    width: 300px;
+
+}
+
+.coluna-skill{
+    float: right;
+    width: 820px;
+
+}
+
+.perfil {
+    background-color: rgb(46, 198, 198);
+    border: 1px solid rgb(46, 198, 198); 
+    align-items: center;
+    text-align: center;
+}
+
+.skill {
+    background-color: white;
+    border: none;
+    align-items: center;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+.perfil .img-perfil {
+    padding: 5px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+img{
+    max-width: 100%;
+}
+
+
+/* separador */
+.hr-perfil {
+    padding: 0;
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, transparent, white, transparent);  
+}
+ 
+
+.icon-title{
+    float: left;
+    height: 40px;  
+    margin-left: 100px;
+    margin-right: 10px;    
+}
+.title{
+    float: left;
+}
+
+
+.icon{
+    float: left;
+    height: 40px;  
+    margin-left: 10px;
+    margin-right: 10px;   
+}
+
+
+/* skill */
+
+.container-skill{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+} 
+
+
+.box-skill{
+    display: flex; 
+    flex-direction: row; 
+    padding: 10px;
+}
+.texto-skill{
+    padding: 7px;
+}
+
+
+
+.icon-skill{
+    display: inline-block;
+    float: left;
+    height: 40px;  
+    margin-left: 380px;
+    margin-right: 10px;  
+
+}
+.title-skill{
+    color: black;
+}
+
+
+.hr-skill {
+    padding: 0;
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, transparent, black, transparent);  
+}
+
+.hr-vertical{
+    float: left;
+    height:100px;
+    width: 3px;
+    border-width:0;
+    color:#000;
+    background-color:#000;
+}
+
+.hr-ponto{
+    float: left;
+    height:10px;
+    width: 10px;
+    border-width:0;
+    color:#000;
+    background-color:#000;
+}
+
+button{
+    padding: 0px;
+    margin: 10px;
+}
+
+footer{
+    width: 400px;
+    /* max-width: fit-content; */
+    /* margin-top: 24px;
+    margin-bottom: 24px;  */
+    font-size: 15px;
+
+    color: black;
+    text-align: center;
+    align-items: flex-start;
+    padding: 30px;
+
+    
+}
+
+.colunas{
+    /* padding-bottom: 30px; */
+}
+
+#clear{
+
+}
+
+
+
